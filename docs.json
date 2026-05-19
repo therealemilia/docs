@@ -109,11 +109,6 @@
       "href": "https://dashboard.mintlify.com"
     }
   },
-  "contextual": {
-    "options": [
-    "perplexity"
-  ]
-  },
   "appearance": {
     "default": "dark",
     "strict": true
@@ -147,6 +142,7 @@
     "color": {
       "light": "#0099ff",
       "dark": "#0072ff"
-    }
+    },
+    "dismissible": true
   }
 }
