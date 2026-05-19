@@ -363,7 +363,6 @@
   },
   "banner": {
     "content": "Die Docs befinden sich gerade im aufbau.",
-    "type": "info",
     "color": {
       "light": "#0099ff",
       "dark": "#0072ff"
