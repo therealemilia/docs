@@ -7,7 +7,7 @@
     "light": "#e5383b",
     "dark": "#e5383b"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "https://nordverkehr.xyz/logo.png",
   "navigation": {
     "tabs": [
       {
