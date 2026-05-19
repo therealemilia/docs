@@ -15,7 +15,314 @@
         "tabs": [
           {
             "tab": "Einleitung",
-            "icon": "book-blank"
+            "icon": "book-open",
+            "groups": [
+              {
+                "group": "Einleitung",
+                "pages": [
+                  "einleitung/willkommen",
+                  "einleitung/server-konzept",
+                  "einleitung/changelog"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Erste Schritte",
+            "icon": "rocket",
+            "groups": [
+              {
+                "group": "Erste Schritte",
+                "pages": [
+                  "erste-schritte/erste-schritte"
+                ]
+              },
+              {
+                "group": "Installation",
+                "pages": [
+                  "erste-schritte/installation/fivem-installieren",
+                  "erste-schritte/installation/server-beitreten",
+                  "erste-schritte/installation/voicechat-einrichten"
+                ]
+              },
+              {
+                "group": "Charakter",
+                "pages": [
+                  "erste-schritte/charakter/charakter-erstellen",
+                  "erste-schritte/charakter/erster-spawn",
+                  "erste-schritte/charakter/wichtige-hotkeys"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Regelwerk",
+            "icon": "gavel",
+            "groups": [
+              {
+                "group": "Grundregeln",
+                "pages": [
+                  "regelwerk/grundregeln/allgemeine-regeln",
+                  "regelwerk/grundregeln/roleplay-regeln",
+                  "regelwerk/grundregeln/support-regeln"
+                ]
+              },
+              {
+                "group": "RP-Verstöße",
+                "pages": [
+                  "regelwerk/rp-verstoesse/fail-rp",
+                  "regelwerk/rp-verstoesse/power-rp",
+                  "regelwerk/rp-verstoesse/meta-gaming",
+                  "regelwerk/rp-verstoesse/combat-logging",
+                  "regelwerk/rp-verstoesse/new-life-rule"
+                ]
+              },
+              {
+                "group": "Sanktionen",
+                "pages": [
+                  "regelwerk/sanktionen/verwarnungen",
+                  "regelwerk/sanktionen/banns",
+                  "regelwerk/sanktionen/entbannungsantrag"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Roleplay Guide",
+            "icon": "masks-theater",
+            "groups": [
+              {
+                "group": "Grundlagen",
+                "pages": [
+                  "roleplay-guide/grundlagen/gutes-roleplay",
+                  "roleplay-guide/grundlagen/charakterentwicklung",
+                  "roleplay-guide/grundlagen/realistisches-verhalten"
+                ]
+              },
+              {
+                "group": "Situationen",
+                "pages": [
+                  "roleplay-guide/situationen/konflikt-rp",
+                  "roleplay-guide/situationen/verletzungen-ausspielen",
+                  "roleplay-guide/situationen/kommunikation-im-rp"
+                ]
+              },
+              {
+                "group": "Beispiele",
+                "pages": [
+                  "roleplay-guide/beispiele"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Jobs",
+            "icon": "briefcase",
+            "groups": [
+              {
+                "group": "Legale Jobs",
+                "pages": [
+                  "jobs/legale-jobs/jobs-uebersicht",
+                  "jobs/legale-jobs/arbeitsamt",
+                  "jobs/legale-jobs/lieferfahrer",
+                  "jobs/legale-jobs/taxi",
+                  "jobs/legale-jobs/muellabfuhr"
+                ]
+              },
+              {
+                "group": "Whitelisted Jobs",
+                "pages": [
+                  "jobs/whitelisted-jobs/polizei",
+                  "jobs/whitelisted-jobs/medizinischer-dienst",
+                  "jobs/whitelisted-jobs/mechaniker",
+                  "jobs/whitelisted-jobs/justiz"
+                ]
+              },
+              {
+                "group": "Bewerbungen",
+                "pages": [
+                  "jobs/job-bewerbungen"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Fraktionen",
+            "icon": "shield-halved",
+            "groups": [
+              {
+                "group": "Staatliche Fraktionen",
+                "pages": [
+                  "fraktionen/staatliche-fraktionen/polizei",
+                  "fraktionen/staatliche-fraktionen/medizinischer-dienst",
+                  "fraktionen/staatliche-fraktionen/justiz"
+                ]
+              },
+              {
+                "group": "Illegale Fraktionen",
+                "pages": [
+                  "fraktionen/illegale-fraktionen/gangs",
+                  "fraktionen/illegale-fraktionen/mafias",
+                  "fraktionen/illegale-fraktionen/kartelle"
+                ]
+              },
+              {
+                "group": "Fraktionsverwaltung",
+                "pages": [
+                  "fraktionen/fraktionsverwaltung/fraktionsregeln",
+                  "fraktionen/fraktionsverwaltung/fraktion-beantragen",
+                  "fraktionen/fraktionsverwaltung/fraktionskrieg"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Kriminalität",
+            "icon": "handcuffs",
+            "groups": [
+              {
+                "group": "Grundlagen",
+                "pages": [
+                  "kriminalitaet/grundlagen/crime-uebersicht",
+                  "kriminalitaet/grundlagen/illegale-aktivitaeten",
+                  "kriminalitaet/grundlagen/crime-regeln"
+                ]
+              },
+              {
+                "group": "Aktivitäten",
+                "pages": [
+                  "kriminalitaet/aktivitaeten/raeube",
+                  "kriminalitaet/aktivitaeten/geiselnahmen",
+                  "kriminalitaet/aktivitaeten/drogen",
+                  "kriminalitaet/aktivitaeten/waffen",
+                  "kriminalitaet/aktivitaeten/flucht-und-verfolgung"
+                ]
+              },
+              {
+                "group": "Wanted-System",
+                "pages": [
+                  "kriminalitaet/wanted-system"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Wirtschaft",
+            "icon": "coins",
+            "groups": [
+              {
+                "group": "Geld",
+                "pages": [
+                  "wirtschaft/geld/geld-verdienen",
+                  "wirtschaft/geld/bank-und-bargeld",
+                  "wirtschaft/geld/steuern-und-gebuehren"
+                ]
+              },
+              {
+                "group": "Handel",
+                "pages": [
+                  "wirtschaft/handel/shops",
+                  "wirtschaft/handel/marktplatz",
+                  "wirtschaft/handel/unternehmen"
+                ]
+              },
+              {
+                "group": "Inventar",
+                "pages": [
+                  "wirtschaft/inventar/inventar-system",
+                  "wirtschaft/inventar/items",
+                  "wirtschaft/inventar/lager"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Fahrzeuge",
+            "icon": "car",
+            "groups": [
+              {
+                "group": "Fahrzeugbesitz",
+                "pages": [
+                  "fahrzeuge/fahrzeugbesitz/fahrzeug-kaufen",
+                  "fahrzeuge/fahrzeugbesitz/garagen",
+                  "fahrzeuge/fahrzeugbesitz/abschlepphof",
+                  "fahrzeuge/fahrzeugbesitz/fahrzeug-verkaufen"
+                ]
+              },
+              {
+                "group": "Tuning",
+                "pages": [
+                  "fahrzeuge/tuning/tuning",
+                  "fahrzeuge/tuning/performance",
+                  "fahrzeuge/tuning/optisches-tuning"
+                ]
+              },
+              {
+                "group": "Regeln",
+                "pages": [
+                  "fahrzeuge/regeln/fahrzeugregeln",
+                  "fahrzeuge/regeln/import-fahrzeuge"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Immobilien",
+            "icon": "house",
+            "groups": [
+              {
+                "group": "Wohnen",
+                "pages": [
+                  "immobilien/wohnen/apartments",
+                  "immobilien/wohnen/haus-kaufen",
+                  "immobilien/wohnen/einrichtung"
+                ]
+              },
+              {
+                "group": "Verwaltung",
+                "pages": [
+                  "immobilien/verwaltung/schluesselverwaltung",
+                  "immobilien/verwaltung/lager-und-stash"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Support",
+            "icon": "life-ring",
+            "groups": [
+              {
+                "group": "Hilfe",
+                "pages": [
+                  "support/hilfe/ticket-erstellen",
+                  "support/hilfe/bug-melden",
+                  "support/hilfe/spieler-melden"
+                ]
+              },
+              {
+                "group": "Anträge",
+                "pages": [
+                  "support/antraege/entbannungsantrag",
+                  "support/antraege/rueckerstattung",
+                  "support/antraege/whitelist-antrag"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Team",
+            "icon": "users",
+            "groups": [
+              {
+                "group": "Team",
+                "pages": [
+                  "team/teamstruktur",
+                  "team/teamregeln",
+                  "team/bewerbung-als-supporter",
+                  "team/bewerbung-als-developer"
+                ]
+              }
+            ]
           }
         ]
       }
