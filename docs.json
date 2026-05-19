@@ -356,7 +356,7 @@
     "latex": true
   },
   "icons": {
-    "library": "fontawesome"
+    "library": "tabler"
   },
   "markdown": {
     "schema": false
