@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "luma",
+  "theme": "almond",
   "name": "Nordverkehrs",
   "colors": {
     "primary": "#e5383b",
@@ -12,33 +12,24 @@
     "versions": [
       {
         "version": "d",
-        "tabs": [
+        "groups": [
           {
-            "tab": "Einleitung",
+            "group": "Einleitung",
             "icon": "book-open",
-            "groups": [
-              {
-                "group": "Einleitung",
-                "pages": [
-                  "einleitung/willkommen",
-                  "einleitung/server-konzept",
-                  "einleitung/changelog"
-                ]
-              }
+            "pages": [
+              "einleitung/willkommen",
+              "einleitung/server-konzept",
+              "einleitung/changelog"
             ]
           },
           {
-            "tab": "Erste Schritte",
+            "group": "Erste Schritte",
             "icon": "rocket",
-            "groups": [
-              {
-                "group": "Erste Schritte",
-                "pages": [
-                  "erste-schritte/erste-schritte"
-                ]
-              },
+            "pages": [
+              "erste-schritte/erste-schritte",
               {
                 "group": "Installation",
+                "icon": "download",
                 "pages": [
                   "erste-schritte/installation/fivem-installieren",
                   "erste-schritte/installation/server-beitreten",
@@ -47,6 +38,7 @@
               },
               {
                 "group": "Charakter",
+                "icon": "user",
                 "pages": [
                   "erste-schritte/charakter/charakter-erstellen",
                   "erste-schritte/charakter/erster-spawn",
@@ -56,11 +48,12 @@
             ]
           },
           {
-            "tab": "Regelwerk",
+            "group": "Regelwerk",
             "icon": "gavel",
-            "groups": [
+            "pages": [
               {
                 "group": "Grundregeln",
+                "icon": "shield",
                 "pages": [
                   "regelwerk/grundregeln/allgemeine-regeln",
                   "regelwerk/grundregeln/roleplay-regeln",
@@ -69,6 +62,7 @@
               },
               {
                 "group": "RP-Verstöße",
+                "icon": "triangle-exclamation",
                 "pages": [
                   "regelwerk/rp-verstoesse/fail-rp",
                   "regelwerk/rp-verstoesse/power-rp",
@@ -79,6 +73,7 @@
               },
               {
                 "group": "Sanktionen",
+                "icon": "ban",
                 "pages": [
                   "regelwerk/sanktionen/verwarnungen",
                   "regelwerk/sanktionen/banns",
@@ -88,11 +83,13 @@
             ]
           },
           {
-            "tab": "Roleplay Guide",
+            "group": "Roleplay Guide",
             "icon": "masks-theater",
-            "groups": [
+            "pages": [
+              "roleplay-guide/beispiele",
               {
                 "group": "Grundlagen",
+                "icon": "brain",
                 "pages": [
                   "roleplay-guide/grundlagen/gutes-roleplay",
                   "roleplay-guide/grundlagen/charakterentwicklung",
@@ -101,26 +98,23 @@
               },
               {
                 "group": "Situationen",
+                "icon": "comments",
                 "pages": [
                   "roleplay-guide/situationen/konflikt-rp",
                   "roleplay-guide/situationen/verletzungen-ausspielen",
                   "roleplay-guide/situationen/kommunikation-im-rp"
                 ]
-              },
-              {
-                "group": "Beispiele",
-                "pages": [
-                  "roleplay-guide/beispiele"
-                ]
               }
             ]
           },
           {
-            "tab": "Jobs",
+            "group": "Jobs",
             "icon": "briefcase",
-            "groups": [
+            "pages": [
+              "jobs/job-bewerbungen",
               {
                 "group": "Legale Jobs",
+                "icon": "truck",
                 "pages": [
                   "jobs/legale-jobs/jobs-uebersicht",
                   "jobs/legale-jobs/arbeitsamt",
@@ -131,27 +125,23 @@
               },
               {
                 "group": "Whitelisted Jobs",
+                "icon": "user-tie",
                 "pages": [
                   "jobs/whitelisted-jobs/polizei",
                   "jobs/whitelisted-jobs/medizinischer-dienst",
                   "jobs/whitelisted-jobs/mechaniker",
                   "jobs/whitelisted-jobs/justiz"
                 ]
-              },
-              {
-                "group": "Bewerbungen",
-                "pages": [
-                  "jobs/job-bewerbungen"
-                ]
               }
             ]
           },
           {
-            "tab": "Fraktionen",
+            "group": "Fraktionen",
             "icon": "shield-halved",
-            "groups": [
+            "pages": [
               {
                 "group": "Staatliche Fraktionen",
+                "icon": "building-shield",
                 "pages": [
                   "fraktionen/staatliche-fraktionen/polizei",
                   "fraktionen/staatliche-fraktionen/medizinischer-dienst",
@@ -160,6 +150,7 @@
               },
               {
                 "group": "Illegale Fraktionen",
+                "icon": "skull",
                 "pages": [
                   "fraktionen/illegale-fraktionen/gangs",
                   "fraktionen/illegale-fraktionen/mafias",
@@ -168,6 +159,7 @@
               },
               {
                 "group": "Fraktionsverwaltung",
+                "icon": "folder-gear",
                 "pages": [
                   "fraktionen/fraktionsverwaltung/fraktionsregeln",
                   "fraktionen/fraktionsverwaltung/fraktion-beantragen",
@@ -177,11 +169,13 @@
             ]
           },
           {
-            "tab": "Kriminalität",
+            "group": "Kriminalität",
             "icon": "handcuffs",
-            "groups": [
+            "pages": [
+              "kriminalitaet/wanted-system",
               {
                 "group": "Grundlagen",
+                "icon": "scale-unbalanced",
                 "pages": [
                   "kriminalitaet/grundlagen/crime-uebersicht",
                   "kriminalitaet/grundlagen/illegale-aktivitaeten",
@@ -190,6 +184,7 @@
               },
               {
                 "group": "Aktivitäten",
+                "icon": "burst",
                 "pages": [
                   "kriminalitaet/aktivitaeten/raeube",
                   "kriminalitaet/aktivitaeten/geiselnahmen",
@@ -197,21 +192,16 @@
                   "kriminalitaet/aktivitaeten/waffen",
                   "kriminalitaet/aktivitaeten/flucht-und-verfolgung"
                 ]
-              },
-              {
-                "group": "Wanted-System",
-                "pages": [
-                  "kriminalitaet/wanted-system"
-                ]
               }
             ]
           },
           {
-            "tab": "Wirtschaft",
+            "group": "Wirtschaft",
             "icon": "coins",
-            "groups": [
+            "pages": [
               {
                 "group": "Geld",
+                "icon": "money-bill-wave",
                 "pages": [
                   "wirtschaft/geld/geld-verdienen",
                   "wirtschaft/geld/bank-und-bargeld",
@@ -220,6 +210,7 @@
               },
               {
                 "group": "Handel",
+                "icon": "shop",
                 "pages": [
                   "wirtschaft/handel/shops",
                   "wirtschaft/handel/marktplatz",
@@ -228,6 +219,7 @@
               },
               {
                 "group": "Inventar",
+                "icon": "boxes-stacked",
                 "pages": [
                   "wirtschaft/inventar/inventar-system",
                   "wirtschaft/inventar/items",
@@ -237,11 +229,12 @@
             ]
           },
           {
-            "tab": "Fahrzeuge",
+            "group": "Fahrzeuge",
             "icon": "car",
-            "groups": [
+            "pages": [
               {
                 "group": "Fahrzeugbesitz",
+                "icon": "key",
                 "pages": [
                   "fahrzeuge/fahrzeugbesitz/fahrzeug-kaufen",
                   "fahrzeuge/fahrzeugbesitz/garagen",
@@ -251,6 +244,7 @@
               },
               {
                 "group": "Tuning",
+                "icon": "wrench",
                 "pages": [
                   "fahrzeuge/tuning/tuning",
                   "fahrzeuge/tuning/performance",
@@ -259,6 +253,7 @@
               },
               {
                 "group": "Regeln",
+                "icon": "triangle-exclamation",
                 "pages": [
                   "fahrzeuge/regeln/fahrzeugregeln",
                   "fahrzeuge/regeln/import-fahrzeuge"
@@ -267,11 +262,12 @@
             ]
           },
           {
-            "tab": "Immobilien",
+            "group": "Immobilien",
             "icon": "house",
-            "groups": [
+            "pages": [
               {
                 "group": "Wohnen",
+                "icon": "bed",
                 "pages": [
                   "immobilien/wohnen/apartments",
                   "immobilien/wohnen/haus-kaufen",
@@ -280,6 +276,7 @@
               },
               {
                 "group": "Verwaltung",
+                "icon": "shield-halved",
                 "pages": [
                   "immobilien/verwaltung/schluesselverwaltung",
                   "immobilien/verwaltung/lager-und-stash"
@@ -288,11 +285,12 @@
             ]
           },
           {
-            "tab": "Support",
+            "group": "Support",
             "icon": "life-ring",
-            "groups": [
+            "pages": [
               {
                 "group": "Hilfe",
+                "icon": "circle-question",
                 "pages": [
                   "support/hilfe/ticket-erstellen",
                   "support/hilfe/bug-melden",
@@ -301,6 +299,7 @@
               },
               {
                 "group": "Anträge",
+                "icon": "file-signature",
                 "pages": [
                   "support/antraege/entbannungsantrag",
                   "support/antraege/rueckerstattung",
@@ -310,18 +309,13 @@
             ]
           },
           {
-            "tab": "Team",
+            "group": "Team",
             "icon": "users",
-            "groups": [
-              {
-                "group": "Team",
-                "pages": [
-                  "team/teamstruktur",
-                  "team/teamregeln",
-                  "team/bewerbung-als-supporter",
-                  "team/bewerbung-als-developer"
-                ]
-              }
+            "pages": [
+              "team/teamstruktur",
+              "team/teamregeln",
+              "team/bewerbung-als-supporter",
+              "team/bewerbung-als-developer"
             ]
           }
         ]
