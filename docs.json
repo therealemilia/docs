@@ -9,320 +9,315 @@
   },
   "favicon": "https://nordverkehr.xyz/logo.png",
   "navigation": {
-    "versions": [
+    "groups": [
       {
-        "version": "d",
-        "groups": [
+        "group": "Einleitung",
+        "icon": "book-open",
+        "pages": [
+          "einleitung/willkommen",
+          "einleitung/server-konzept",
+          "einleitung/changelog"
+        ]
+      },
+      {
+        "group": "Erste Schritte",
+        "icon": "rocket",
+        "pages": [
+          "erste-schritte/erste-schritte",
           {
-            "group": "Einleitung",
-            "icon": "book-open",
+            "group": "Installation",
+            "icon": "download",
             "pages": [
-              "einleitung/willkommen",
-              "einleitung/server-konzept",
-              "einleitung/changelog"
+              "erste-schritte/installation/fivem-installieren",
+              "erste-schritte/installation/server-beitreten",
+              "erste-schritte/installation/voicechat-einrichten"
             ]
           },
           {
-            "group": "Erste Schritte",
-            "icon": "rocket",
+            "group": "Charakter",
+            "icon": "user",
             "pages": [
-              "erste-schritte/erste-schritte",
-              {
-                "group": "Installation",
-                "icon": "download",
-                "pages": [
-                  "erste-schritte/installation/fivem-installieren",
-                  "erste-schritte/installation/server-beitreten",
-                  "erste-schritte/installation/voicechat-einrichten"
-                ]
-              },
-              {
-                "group": "Charakter",
-                "icon": "user",
-                "pages": [
-                  "erste-schritte/charakter/charakter-erstellen",
-                  "erste-schritte/charakter/erster-spawn",
-                  "erste-schritte/charakter/wichtige-hotkeys"
-                ]
-              }
-            ]
-          },
-          {
-            "group": "Regelwerk",
-            "icon": "gavel",
-            "pages": [
-              {
-                "group": "Grundregeln",
-                "icon": "shield",
-                "pages": [
-                  "regelwerk/grundregeln/allgemeine-regeln",
-                  "regelwerk/grundregeln/roleplay-regeln",
-                  "regelwerk/grundregeln/support-regeln"
-                ]
-              },
-              {
-                "group": "RP-Verstöße",
-                "icon": "triangle-exclamation",
-                "pages": [
-                  "regelwerk/rp-verstoesse/fail-rp",
-                  "regelwerk/rp-verstoesse/power-rp",
-                  "regelwerk/rp-verstoesse/meta-gaming",
-                  "regelwerk/rp-verstoesse/combat-logging",
-                  "regelwerk/rp-verstoesse/new-life-rule"
-                ]
-              },
-              {
-                "group": "Sanktionen",
-                "icon": "ban",
-                "pages": [
-                  "regelwerk/sanktionen/verwarnungen",
-                  "regelwerk/sanktionen/banns",
-                  "regelwerk/sanktionen/entbannungsantrag"
-                ]
-              }
-            ]
-          },
-          {
-            "group": "Roleplay Guide",
-            "icon": "masks-theater",
-            "pages": [
-              "roleplay-guide/beispiele",
-              {
-                "group": "Grundlagen",
-                "icon": "brain",
-                "pages": [
-                  "roleplay-guide/grundlagen/gutes-roleplay",
-                  "roleplay-guide/grundlagen/charakterentwicklung",
-                  "roleplay-guide/grundlagen/realistisches-verhalten"
-                ]
-              },
-              {
-                "group": "Situationen",
-                "icon": "comments",
-                "pages": [
-                  "roleplay-guide/situationen/konflikt-rp",
-                  "roleplay-guide/situationen/verletzungen-ausspielen",
-                  "roleplay-guide/situationen/kommunikation-im-rp"
-                ]
-              }
-            ]
-          },
-          {
-            "group": "Jobs",
-            "icon": "briefcase",
-            "pages": [
-              "jobs/job-bewerbungen",
-              {
-                "group": "Legale Jobs",
-                "icon": "truck",
-                "pages": [
-                  "jobs/legale-jobs/jobs-uebersicht",
-                  "jobs/legale-jobs/arbeitsamt",
-                  "jobs/legale-jobs/lieferfahrer",
-                  "jobs/legale-jobs/taxi",
-                  "jobs/legale-jobs/muellabfuhr"
-                ]
-              },
-              {
-                "group": "Whitelisted Jobs",
-                "icon": "user-tie",
-                "pages": [
-                  "jobs/whitelisted-jobs/polizei",
-                  "jobs/whitelisted-jobs/medizinischer-dienst",
-                  "jobs/whitelisted-jobs/mechaniker",
-                  "jobs/whitelisted-jobs/justiz"
-                ]
-              }
-            ]
-          },
-          {
-            "group": "Fraktionen",
-            "icon": "shield-halved",
-            "pages": [
-              {
-                "group": "Staatliche Fraktionen",
-                "icon": "building-shield",
-                "pages": [
-                  "fraktionen/staatliche-fraktionen/polizei",
-                  "fraktionen/staatliche-fraktionen/medizinischer-dienst",
-                  "fraktionen/staatliche-fraktionen/justiz"
-                ]
-              },
-              {
-                "group": "Illegale Fraktionen",
-                "icon": "skull",
-                "pages": [
-                  "fraktionen/illegale-fraktionen/gangs",
-                  "fraktionen/illegale-fraktionen/mafias",
-                  "fraktionen/illegale-fraktionen/kartelle"
-                ]
-              },
-              {
-                "group": "Fraktionsverwaltung",
-                "icon": "folder-gear",
-                "pages": [
-                  "fraktionen/fraktionsverwaltung/fraktionsregeln",
-                  "fraktionen/fraktionsverwaltung/fraktion-beantragen",
-                  "fraktionen/fraktionsverwaltung/fraktionskrieg"
-                ]
-              }
-            ]
-          },
-          {
-            "group": "Kriminalität",
-            "icon": "handcuffs",
-            "pages": [
-              "kriminalitaet/wanted-system",
-              {
-                "group": "Grundlagen",
-                "icon": "scale-unbalanced",
-                "pages": [
-                  "kriminalitaet/grundlagen/crime-uebersicht",
-                  "kriminalitaet/grundlagen/illegale-aktivitaeten",
-                  "kriminalitaet/grundlagen/crime-regeln"
-                ]
-              },
-              {
-                "group": "Aktivitäten",
-                "icon": "burst",
-                "pages": [
-                  "kriminalitaet/aktivitaeten/raeube",
-                  "kriminalitaet/aktivitaeten/geiselnahmen",
-                  "kriminalitaet/aktivitaeten/drogen",
-                  "kriminalitaet/aktivitaeten/waffen",
-                  "kriminalitaet/aktivitaeten/flucht-und-verfolgung"
-                ]
-              }
-            ]
-          },
-          {
-            "group": "Wirtschaft",
-            "icon": "coins",
-            "pages": [
-              {
-                "group": "Geld",
-                "icon": "money-bill-wave",
-                "pages": [
-                  "wirtschaft/geld/geld-verdienen",
-                  "wirtschaft/geld/bank-und-bargeld",
-                  "wirtschaft/geld/steuern-und-gebuehren"
-                ]
-              },
-              {
-                "group": "Handel",
-                "icon": "shop",
-                "pages": [
-                  "wirtschaft/handel/shops",
-                  "wirtschaft/handel/marktplatz",
-                  "wirtschaft/handel/unternehmen"
-                ]
-              },
-              {
-                "group": "Inventar",
-                "icon": "boxes-stacked",
-                "pages": [
-                  "wirtschaft/inventar/inventar-system",
-                  "wirtschaft/inventar/items",
-                  "wirtschaft/inventar/lager"
-                ]
-              }
-            ]
-          },
-          {
-            "group": "Fahrzeuge",
-            "icon": "car",
-            "pages": [
-              {
-                "group": "Fahrzeugbesitz",
-                "icon": "key",
-                "pages": [
-                  "fahrzeuge/fahrzeugbesitz/fahrzeug-kaufen",
-                  "fahrzeuge/fahrzeugbesitz/garagen",
-                  "fahrzeuge/fahrzeugbesitz/abschlepphof",
-                  "fahrzeuge/fahrzeugbesitz/fahrzeug-verkaufen"
-                ]
-              },
-              {
-                "group": "Tuning",
-                "icon": "wrench",
-                "pages": [
-                  "fahrzeuge/tuning/tuning",
-                  "fahrzeuge/tuning/performance",
-                  "fahrzeuge/tuning/optisches-tuning"
-                ]
-              },
-              {
-                "group": "Regeln",
-                "icon": "triangle-exclamation",
-                "pages": [
-                  "fahrzeuge/regeln/fahrzeugregeln",
-                  "fahrzeuge/regeln/import-fahrzeuge"
-                ]
-              }
-            ]
-          },
-          {
-            "group": "Immobilien",
-            "icon": "house",
-            "pages": [
-              {
-                "group": "Wohnen",
-                "icon": "bed",
-                "pages": [
-                  "immobilien/wohnen/apartments",
-                  "immobilien/wohnen/haus-kaufen",
-                  "immobilien/wohnen/einrichtung"
-                ]
-              },
-              {
-                "group": "Verwaltung",
-                "icon": "shield-halved",
-                "pages": [
-                  "immobilien/verwaltung/schluesselverwaltung",
-                  "immobilien/verwaltung/lager-und-stash"
-                ]
-              }
-            ]
-          },
-          {
-            "group": "Support",
-            "icon": "life-ring",
-            "pages": [
-              {
-                "group": "Hilfe",
-                "icon": "circle-question",
-                "pages": [
-                  "support/hilfe/ticket-erstellen",
-                  "support/hilfe/bug-melden",
-                  "support/hilfe/spieler-melden"
-                ]
-              },
-              {
-                "group": "Anträge",
-                "icon": "file-signature",
-                "pages": [
-                  "support/antraege/entbannungsantrag",
-                  "support/antraege/rueckerstattung",
-                  "support/antraege/whitelist-antrag"
-                ]
-              }
-            ]
-          },
-          {
-            "group": "Team",
-            "icon": "users",
-            "pages": [
-              "team/teamstruktur",
-              "team/teamregeln",
-              "team/bewerbung-als-supporter",
-              "team/bewerbung-als-developer"
+              "erste-schritte/charakter/charakter-erstellen",
+              "erste-schritte/charakter/erster-spawn",
+              "erste-schritte/charakter/wichtige-hotkeys"
             ]
           }
+        ]
+      },
+      {
+        "group": "Regelwerk",
+        "icon": "gavel",
+        "pages": [
+          {
+            "group": "Grundregeln",
+            "icon": "shield",
+            "pages": [
+              "regelwerk/grundregeln/allgemeine-regeln",
+              "regelwerk/grundregeln/roleplay-regeln",
+              "regelwerk/grundregeln/support-regeln"
+            ]
+          },
+          {
+            "group": "RP-Verstöße",
+            "icon": "triangle-exclamation",
+            "pages": [
+              "regelwerk/rp-verstoesse/fail-rp",
+              "regelwerk/rp-verstoesse/power-rp",
+              "regelwerk/rp-verstoesse/meta-gaming",
+              "regelwerk/rp-verstoesse/combat-logging",
+              "regelwerk/rp-verstoesse/new-life-rule"
+            ]
+          },
+          {
+            "group": "Sanktionen",
+            "icon": "ban",
+            "pages": [
+              "regelwerk/sanktionen/verwarnungen",
+              "regelwerk/sanktionen/banns",
+              "regelwerk/sanktionen/entbannungsantrag"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Roleplay Guide",
+        "icon": "masks-theater",
+        "pages": [
+          "roleplay-guide/beispiele",
+          {
+            "group": "Grundlagen",
+            "icon": "brain",
+            "pages": [
+              "roleplay-guide/grundlagen/gutes-roleplay",
+              "roleplay-guide/grundlagen/charakterentwicklung",
+              "roleplay-guide/grundlagen/realistisches-verhalten"
+            ]
+          },
+          {
+            "group": "Situationen",
+            "icon": "comments",
+            "pages": [
+              "roleplay-guide/situationen/konflikt-rp",
+              "roleplay-guide/situationen/verletzungen-ausspielen",
+              "roleplay-guide/situationen/kommunikation-im-rp"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Jobs",
+        "icon": "briefcase",
+        "pages": [
+          "jobs/job-bewerbungen",
+          {
+            "group": "Legale Jobs",
+            "icon": "truck",
+            "pages": [
+              "jobs/legale-jobs/jobs-uebersicht",
+              "jobs/legale-jobs/arbeitsamt",
+              "jobs/legale-jobs/lieferfahrer",
+              "jobs/legale-jobs/taxi",
+              "jobs/legale-jobs/muellabfuhr"
+            ]
+          },
+          {
+            "group": "Whitelisted Jobs",
+            "icon": "user-tie",
+            "pages": [
+              "jobs/whitelisted-jobs/polizei",
+              "jobs/whitelisted-jobs/medizinischer-dienst",
+              "jobs/whitelisted-jobs/mechaniker",
+              "jobs/whitelisted-jobs/justiz"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Fraktionen",
+        "icon": "shield-halved",
+        "pages": [
+          {
+            "group": "Staatliche Fraktionen",
+            "icon": "building-shield",
+            "pages": [
+              "fraktionen/staatliche-fraktionen/polizei",
+              "fraktionen/staatliche-fraktionen/medizinischer-dienst",
+              "fraktionen/staatliche-fraktionen/justiz"
+            ]
+          },
+          {
+            "group": "Illegale Fraktionen",
+            "icon": "skull",
+            "pages": [
+              "fraktionen/illegale-fraktionen/gangs",
+              "fraktionen/illegale-fraktionen/mafias",
+              "fraktionen/illegale-fraktionen/kartelle"
+            ]
+          },
+          {
+            "group": "Fraktionsverwaltung",
+            "icon": "folder-gear",
+            "pages": [
+              "fraktionen/fraktionsverwaltung/fraktionsregeln",
+              "fraktionen/fraktionsverwaltung/fraktion-beantragen",
+              "fraktionen/fraktionsverwaltung/fraktionskrieg"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Kriminalität",
+        "icon": "handcuffs",
+        "pages": [
+          "kriminalitaet/wanted-system",
+          {
+            "group": "Grundlagen",
+            "icon": "scale-unbalanced",
+            "pages": [
+              "kriminalitaet/grundlagen/crime-uebersicht",
+              "kriminalitaet/grundlagen/illegale-aktivitaeten",
+              "kriminalitaet/grundlagen/crime-regeln"
+            ]
+          },
+          {
+            "group": "Aktivitäten",
+            "icon": "burst",
+            "pages": [
+              "kriminalitaet/aktivitaeten/raeube",
+              "kriminalitaet/aktivitaeten/geiselnahmen",
+              "kriminalitaet/aktivitaeten/drogen",
+              "kriminalitaet/aktivitaeten/waffen",
+              "kriminalitaet/aktivitaeten/flucht-und-verfolgung"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Wirtschaft",
+        "icon": "coins",
+        "pages": [
+          {
+            "group": "Geld",
+            "icon": "money-bill-wave",
+            "pages": [
+              "wirtschaft/geld/geld-verdienen",
+              "wirtschaft/geld/bank-und-bargeld",
+              "wirtschaft/geld/steuern-und-gebuehren"
+            ]
+          },
+          {
+            "group": "Handel",
+            "icon": "shop",
+            "pages": [
+              "wirtschaft/handel/shops",
+              "wirtschaft/handel/marktplatz",
+              "wirtschaft/handel/unternehmen"
+            ]
+          },
+          {
+            "group": "Inventar",
+            "icon": "boxes-stacked",
+            "pages": [
+              "wirtschaft/inventar/inventar-system",
+              "wirtschaft/inventar/items",
+              "wirtschaft/inventar/lager"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Fahrzeuge",
+        "icon": "car",
+        "pages": [
+          {
+            "group": "Fahrzeugbesitz",
+            "icon": "key",
+            "pages": [
+              "fahrzeuge/fahrzeugbesitz/fahrzeug-kaufen",
+              "fahrzeuge/fahrzeugbesitz/garagen",
+              "fahrzeuge/fahrzeugbesitz/abschlepphof",
+              "fahrzeuge/fahrzeugbesitz/fahrzeug-verkaufen"
+            ]
+          },
+          {
+            "group": "Tuning",
+            "icon": "wrench",
+            "pages": [
+              "fahrzeuge/tuning/tuning",
+              "fahrzeuge/tuning/performance",
+              "fahrzeuge/tuning/optisches-tuning"
+            ]
+          },
+          {
+            "group": "Regeln",
+            "icon": "triangle-exclamation",
+            "pages": [
+              "fahrzeuge/regeln/fahrzeugregeln",
+              "fahrzeuge/regeln/import-fahrzeuge"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Immobilien",
+        "icon": "house",
+        "pages": [
+          {
+            "group": "Wohnen",
+            "icon": "bed",
+            "pages": [
+              "immobilien/wohnen/apartments",
+              "immobilien/wohnen/haus-kaufen",
+              "immobilien/wohnen/einrichtung"
+            ]
+          },
+          {
+            "group": "Verwaltung",
+            "icon": "shield-halved",
+            "pages": [
+              "immobilien/verwaltung/schluesselverwaltung",
+              "immobilien/verwaltung/lager-und-stash"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Support",
+        "icon": "life-ring",
+        "pages": [
+          {
+            "group": "Hilfe",
+            "icon": "circle-question",
+            "pages": [
+              "support/hilfe/ticket-erstellen",
+              "support/hilfe/bug-melden",
+              "support/hilfe/spieler-melden"
+            ]
+          },
+          {
+            "group": "Anträge",
+            "icon": "file-signature",
+            "pages": [
+              "support/antraege/entbannungsantrag",
+              "support/antraege/rueckerstattung",
+              "support/antraege/whitelist-antrag"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Team",
+        "icon": "users",
+        "pages": [
+          "team/teamstruktur",
+          "team/teamregeln",
+          "team/bewerbung-als-supporter",
+          "team/bewerbung-als-developer"
         ]
       }
     ]
   },
-  "logo": "https://nordverkehr.xyz/fivemlo.png",
+  "logo": "https://i.ibb.co/Gv76thjd/fivemlogo.png",
   "navbar": {
     "links": [
       {
@@ -374,6 +369,9 @@
       "light": "#0099ff",
       "dark": "#0072ff"
     },
-    "dismissible": true
+    "dismissible": false
+  },
+  "fonts": {
+    "family": "Lexend"
   }
 }
