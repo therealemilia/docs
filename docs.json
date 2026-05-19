@@ -103,15 +103,8 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+    "perplexity"
+  ]
   },
   "appearance": {
     "default": "dark",
@@ -124,7 +117,10 @@
     }
   },
   "thumbnails": {
-    "appearance": "dark"
+    "appearance": "dark",
+    "fonts": {
+      "family": "Outfit"
+    }
   },
   "styling": {
     "eyebrows": "breadcrumbs",
@@ -133,5 +129,8 @@
   },
   "icons": {
     "library": "fontawesome"
+  },
+  "markdown": {
+    "schema": false
   }
 }
