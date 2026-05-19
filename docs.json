@@ -23,7 +23,6 @@
         "group": "Erste Schritte",
         "icon": "rocket",
         "pages": [
-          "erste-schritte/erste-schritte",
           {
             "group": "Installation",
             "icon": "download",
