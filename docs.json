@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "luma",
+  "theme": "mint",
   "name": "Nordverkehrs",
   "colors": {
     "primary": "#e5383b",
@@ -376,5 +376,8 @@
       "dark": "#0072ff"
     },
     "dismissible": true
+  },
+  "fonts": {
+    "family": "Lexend"
   }
 }
