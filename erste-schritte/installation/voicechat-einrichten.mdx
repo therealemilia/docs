@@ -1,7 +1,193 @@
 ---
-title: "Voicechat Einrichten"
+title: "Voicechat einrichten"
+description: "So richtest du TeamSpeak 3 und YaCA für den Voicechat auf Nordverkehr ein"
 ---
 
-# Voicechat Einrichten
+Um auf unserem FiveM Server sprechen und hören zu können, verwenden wir **YaCA** für realistische Sprachkommunikation.
 
-Hier findest du Informationen zu Voicechat Einrichten.
+YaCA steht für **Yet Another Communication Addon** und ermöglicht unter anderem **3D-Proximity-Voice** sowie Funkkommunikation im Roleplay.
+
+<Info>
+  Voicechat ist auf Nordverkehr erforderlich. Ohne korrekt eingerichteten Voicechat kannst du nicht regulär am Roleplay teilnehmen.
+</Info>
+
+## Voraussetzungen
+
+Für den Voicechat benötigst du:
+
+<CardGroup cols={3}>
+  <Card title="TeamSpeak 3" icon="headphones" horizontal>
+    Den klassischen TeamSpeak 3 Client.
+  </Card>
+
+  <Card title="YaCA Plugin v1.7.5" icon="puzzle-piece" horizontal>
+    Das passende YaCA Plugin für TeamSpeak 3.
+  </Card>
+
+  <Card title="3D Proximity Voice" icon="chart-scatter-3d" horizontal>
+    Realistische Sprachreichweite im Spiel.
+  </Card>
+</CardGroup>
+
+<Warning>
+  Lade nicht den neuen TeamSpeak-Beta-Client, auch bekannt als TS6, herunter. Dieser unterstützt unsere Ingame-Plugins nicht.
+</Warning>
+
+## Schritt 01: TeamSpeak 3 herunterladen und installieren
+
+Lade den offiziellen **TeamSpeak 3 Client** herunter.
+
+<Card title="TeamSpeak 3 Client herunterladen" icon="download" href="https://files.teamspeak-services.com/releases/client/3.6.2/TeamSpeak3-Client-win64-3.6.2.exe">
+  Lade den TeamSpeak 3 Client für Windows in der 64-Bit-Version herunter.
+</Card>
+
+Starte anschließend den Installer und schließe die Installation ab.
+
+<Warning>
+  Wenn TeamSpeak sich öffnet und dich auffordert, dich einzuloggen oder ein myTeamSpeak-Konto zu erstellen, klicke auf **Ohne Anmeldung fortfahren** oder schließe das Login-Fenster.
+</Warning>
+
+Ein Login mit einem neuen myTeamSpeak-Konto kann zu Verbindungsfehlern führen.
+
+## Schritt 02: YaCA Plugin installieren
+
+Bevor du das Plugin installierst, schließe **TeamSpeak 3 vollständig**.
+
+Lade anschließend das YaCA Plugin herunter:
+
+<Card title="YaCA Plugin v1.7.5 herunterladen" icon="download" href="https://yaca.systems/downloads?version=1.7.5&teamspeak=3.6.x">
+  Lade das passende YaCA Plugin für TeamSpeak 3.6.x herunter.
+</Card>
+
+Nach dem Download:
+
+1. Doppelklicke auf die Datei `yaca_1.7.5_3.6.x.ts3_plugin`
+2. Ein TeamSpeak-Installationsfenster öffnet sich
+3. Klicke auf **Installieren**
+4. Bestätige die Sicherheitswarnung mit **Ja**
+5. Warte, bis die Installation abgeschlossen ist
+
+## Schritt 03: Plugin überprüfen
+
+Öffne jetzt **TeamSpeak 3**.
+
+Gehe anschließend wie folgt vor:
+
+1. Klicke oben in der Menüleiste auf **Extras**
+2. Öffne **Optionen**
+3. Alternativ kannst du `Alt + P` drücken
+4. Klicke links auf den Tab **Addons**
+5. Suche nach **YaCA**
+6. Stelle sicher, dass das Plugin aktiviert ist
+
+<Check>
+  Wenn bei YaCA **Aktiviert** steht, ist das Plugin korrekt eingeschaltet.
+</Check>
+
+Falls dort **Deaktiviert** steht, klicke auf den Button, um das Plugin zu aktivieren.
+
+## Schritt 04: Verbinden und losspielen
+
+Verbinde dich nun mit unserem TeamSpeak Server.
+
+Öffne in TeamSpeak 3:
+
+```txt
+Verbindungen → Verbinden
+```
+
+Trage folgende Server-Adresse ein:
+
+```txt
+ts.nordverkehr.xyz
+```
+
+Wähle anschließend deinen Nickname und klicke auf **Verbinden**.
+
+Danach kannst du FiveM starten und Nordverkehr beitreten.
+
+<Card title="Server beitreten" icon="plug" href="/erste-schritte/installation/server-beitreten">
+  Erfahre, wie du dich mit dem Nordverkehr FiveM Server verbindest.
+</Card>
+
+## Automatischer Ingame-Voice-Channel
+
+Sobald du in der Spielwelt spawnst, erkennt TeamSpeak automatisch deine Verbindung.
+
+Du wirst automatisch in den passenden **Ingame-Voice-Channel** verschoben.
+
+<Info>
+  Du musst keine Kanäle manuell wechseln. Das Voice-System übernimmt dies automatisch.
+</Info>
+
+## Fehlerbehebung
+
+Falls dein Voicechat nicht funktioniert, prüfe zuerst folgende Punkte:
+
+<AccordionGroup>
+  <Accordion title="YaCA wird nicht angezeigt">
+    Stelle sicher, dass du TeamSpeak 3 vollständig geschlossen hast, bevor du das Plugin installiert hast.
+
+    ```text
+    Installiere das Plugin anschließend erneut und starte TeamSpeak 3 neu.
+    ```
+  </Accordion>
+
+  <Accordion title="YaCA ist deaktiviert">
+    Öffne in TeamSpeak 3 die Einstellungen über **Extras → Optionen → Addons**.
+
+    ```text
+    Suche nach **YaCA** und aktiviere das Plugin.
+    ```
+  </Accordion>
+
+  <Accordion title="Ich werde nicht automatisch verschoben">
+    Stelle sicher, dass du mit dem richtigen TeamSpeak Server verbunden bist:
+
+    ````text
+    ```txt
+    ts.nordverkehr.xyz
+    ```
+    
+    Prüfe außerdem, ob du bereits vollständig auf dem FiveM Server gespawnt bist.
+    ````
+  </Accordion>
+
+  <Accordion title="Ich kann niemanden hören">
+    Prüfe in TeamSpeak 3 dein Ausgabegerät.
+
+    ```text
+    Öffne dafür die Einstellungen und kontrolliere, ob dein Headset oder deine Lautsprecher korrekt ausgewählt sind.
+    ```
+  </Accordion>
+
+  <Accordion title="Andere hören mich nicht">
+    Prüfe in TeamSpeak 3 dein Mikrofon.
+
+    ```text
+    Stelle sicher, dass das richtige Eingabegerät ausgewählt ist und dein Mikrofon nicht stummgeschaltet ist.
+    ```
+  </Accordion>
+
+  <Accordion title="Ich nutze aus Versehen TS6">
+    Deinstalliere den neuen TeamSpeak-Beta-Client und installiere stattdessen den klassischen TeamSpeak 3 Client.
+
+    ```text
+    TS6 unterstützt unsere benötigten Ingame-Plugins nicht.
+    ```
+  </Accordion>
+</AccordionGroup>
+
+## Weitere Hilfe
+
+Solltest du weiterhin Probleme haben, melde dich bitte im Support.
+
+<CardGroup cols={2}>
+  <Card title="Discord" icon="discord" href="https://nordverkehr.xyz/discord">
+    Erhalte schnelle Hilfe vom Team und der Community.
+  </Card>
+
+  <Card title="Forum" icon="messages" href="https://forum.nordverkehr.xyz">
+    Nutze das Forum für Fragen, Anleitungen und Support-Themen.
+  </Card>
+</CardGroup>
