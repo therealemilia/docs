@@ -91,8 +91,16 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "https://noverkehr.xyz",
+        "label": "Home"
+      },
+      {
+        "href": "https://forum.nordverkehr.xyz",
+        "label": "Forum"
+      },
+      {
+        "href": "https://noverkehr.xyz",
+        "label": "Discord"
       }
     ],
     "primary": {
@@ -132,5 +140,13 @@
   },
   "markdown": {
     "schema": false
+  },
+  "banner": {
+    "content": "Die Docs befinden sich gerade im aufbau.",
+    "type": "info",
+    "color": {
+      "light": "#0099ff",
+      "dark": "#0072ff"
+    }
   }
 }
