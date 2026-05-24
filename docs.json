@@ -117,7 +117,8 @@
               "jobs/legale-jobs/arbeitsamt",
               "jobs/legale-jobs/lieferfahrer",
               "jobs/legale-jobs/taxi",
-              "jobs/legale-jobs/muellabfuhr"
+              "jobs/legale-jobs/muellabfuhr",
+              "jobs/legale-jobs/mechanic"
             ]
           },
           {
@@ -241,7 +242,7 @@
           },
           {
             "group": "Tuning",
-            "icon": "tool",
+            "icon": "car-wrench",
             "pages": [
               "fahrzeuge/tuning/tuning",
               "fahrzeuge/tuning/performance",
