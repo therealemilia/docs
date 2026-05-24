@@ -12,7 +12,7 @@
     "groups": [
       {
         "group": "Einleitung",
-        "icon": "book-open",
+        "icon": "info-hexagon",
         "pages": [
           "einleitung/willkommen",
           "einleitung/server-konzept",
@@ -240,7 +240,7 @@
           },
           {
             "group": "Tuning",
-            "icon": "wrench",
+            "icon": "tool",
             "pages": [
               "fahrzeuge/tuning/tuning",
               "fahrzeuge/tuning/performance",
@@ -259,7 +259,7 @@
       },
       {
         "group": "Immobilien",
-        "icon": "house",
+        "icon": "building-warehouse",
         "pages": [
           {
             "group": "Wohnen",
@@ -312,7 +312,8 @@
           "team/teamregeln",
           "team/bewerbung-als-supporter",
           "team/bewerbung-als-developer"
-        ]
+        ],
+        "hidden": true
       }
     ]
   },
