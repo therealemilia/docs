@@ -12,12 +12,13 @@
     "groups": [
       {
         "group": "Einleitung",
-        "icon": "info-hexagon",
+        "icon": "arrow-pointer",
         "pages": [
           "einleitung/willkommen",
           "einleitung/server-konzept",
           "einleitung/changelog"
-        ]
+        ],
+        "expanded": true
       },
       {
         "group": "Erste Schritte",
@@ -357,7 +358,7 @@
     "latex": true
   },
   "icons": {
-    "library": "tabler"
+    "library": "fontawesome"
   },
   "markdown": {
     "schema": false
