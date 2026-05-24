@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "luma",
-  "name": "Nordverkehrs",
+  "name": "Nordverkehr - Docs",
   "colors": {
     "primary": "#e5383b",
     "light": "#e5383b",
@@ -361,14 +361,6 @@
   },
   "markdown": {
     "schema": false
-  },
-  "banner": {
-    "content": "Die Docs befinden sich gerade im aufbau.",
-    "color": {
-      "light": "#0099ff",
-      "dark": "#0072ff"
-    },
-    "dismissible": false
   },
   "fonts": {
     "family": "Lexend"
