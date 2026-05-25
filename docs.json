@@ -45,6 +45,15 @@
         ]
       },
       {
+        "group": "Gesetze",
+        "icon": "gavel",
+        "tag": "Gesetze",
+        "expanded": true,
+        "pages": [
+          "untitled-page"
+        ]
+      },
+      {
         "group": "Regelwerk",
         "icon": "gavel",
         "pages": [
